@@ -32,6 +32,7 @@ spec:
               secretKeyRef:
                 name: mongodb-secret
                 key: password
+        
 ---
 apiVersion: v1
 kind: Service
