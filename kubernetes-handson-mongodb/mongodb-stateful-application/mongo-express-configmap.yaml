@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-express-configmap
+  namespace: mlrit-workshop
+data:
+  db-url: mongo-svc
