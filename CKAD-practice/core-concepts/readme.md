@@ -1,0 +1,14 @@
+- core concepts of kubernetes involve many commands related to 
+    - context & configuration
+    - creating objects
+    - viewing & finding resources
+    - updating resources
+    - patching resources
+    - editing resources
+    - scaling resources
+    - deleting resources
+    - interacting with running pods
+    - deployments & services
+    - nodes & clusters
+    - resource types
+    - verbocity
