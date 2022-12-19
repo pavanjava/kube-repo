@@ -14,3 +14,4 @@
     - verbocity
 
 - Note: commands are directly taken from the kubernetes.io official documentation
+- Note: if you find any *.yaml file in the command list please check the configuration folder, i have written some sample config files for you to play with.
