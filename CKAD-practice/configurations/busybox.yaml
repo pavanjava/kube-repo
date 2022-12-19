@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox
+  labels:
+    name: busybox
+spec:
+  containers:
+  - name: busybox
+    image: busybox:latest
+    command:
+      - "echo"
+      - "Hello World"
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "128m"
+    imagePullPolicy: IfNotPresent
+  restartPolicy: OnFailure

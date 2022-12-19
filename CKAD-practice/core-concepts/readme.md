@@ -12,3 +12,5 @@
     - nodes & clusters
     - resource types
     - verbocity
+
+- Note: commands are directly taken from the kubernetes.io official documentation
